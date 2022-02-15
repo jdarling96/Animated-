@@ -1,4 +1,4 @@
-randomRgb => () => {
+function randomRgb() {
     const r = Math.floor(Math.random() * 256);
     const b = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
@@ -16,4 +16,4 @@ const intervalId = setInterval(function(){
 
 
 
-}, 2000)
+}, 1000)
